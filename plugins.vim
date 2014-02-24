@@ -20,6 +20,11 @@ let g:delimitMate_expand_cr = 1    " Turns on/off the expansion of <CR>
 " nerdtree
 " Ctrl-P to Display the file browser tree
 nmap <C-P> :NERDTreeTabsToggle<CR>
+let g:NERDTreeChDirMode=2
+let NERDTreeWinSize=30
+let NERDTreeShowBookmarks=1
+let NERDTreeShowHidden=1
+
 " ,p to show current file in the tree
 nmap <leader>p :NERDTreeFind<CR>
 
