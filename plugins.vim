@@ -38,7 +38,6 @@ vmap <leader>/ :call NERDComment(0, "invert")<cr>
 nmap <leader>t :TlistToggle<CR>
 
 " auto open taglist on right side
-autocmd VimEnter * Tlist
 let Tlist_Use_Right_Window = 1
 
 "latex tags
