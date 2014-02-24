@@ -33,9 +33,18 @@ nmap <leader>p :NERDTreeFind<CR>
 nmap <leader>/ :call NERDComment(0, "invert")<cr>
 vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
+" taglist
 " ,t to show tags window
-let Tlist_Show_Menu=1
 nmap <leader>t :TlistToggle<CR>
+
+" auto open taglist on right side
+autocmd VimEnter * Tlist
+let Tlist_Use_Right_Window = 1
+
+"latex tags
+let tlist_tex_settings = 'latex;l:label;s:sections;t:subsections;u:subsubsections'
+"To get rid of an obnoxius error when using latex tags E792: Empty Menu Name
+let Tlist_Show_Menu = 0
 
 " sessionman
 nmap <leader>S :SessionList<CR>
