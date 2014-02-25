@@ -65,26 +65,26 @@ Bundle 'airblade/vim-gitgutter'
 "vim-latex
 Bundle 'jcf/vim-latex'
 "vim-flake8
-Bundle nvie/vim-flake8
+Bundle 'nvie/vim-flake8'
 
 " Ruby/Rails
 
 " rails support
-Bundle 'tpope/vim-rails'
+"Bundle 'tpope/vim-rails'
 " bundler integration (e.g. :Bopen)
-Bundle 'tpope/vim-bundler'
+"Bundle 'tpope/vim-bundler'
 " rake integration
-Bundle 'tpope/vim-rake'
+"Bundle 'tpope/vim-rake'
 " A custom text object for selecting ruby blocks (ar/ir)
-Bundle 'nelstrom/vim-textobj-rubyblock'
+"Bundle 'nelstrom/vim-textobj-rubyblock'
 " ruby refactoring
-Bundle 'ecomba/vim-ruby-refactoring'
+"Bundle 'ecomba/vim-ruby-refactoring'
 " apidock.com docs integration
-Bundle 'apidock.vim'
+"Bundle 'apidock.vim'
 " toggle ruby blocks style
-Bundle 'vim-scripts/blockle.vim'
+"Bundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
-Bundle 'josemarluedke/vim-rspec'
+"Bundle 'josemarluedke/vim-rspec'
 
 " color themes
 Bundle 'altercation/vim-colors-solarized'
