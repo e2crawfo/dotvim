@@ -45,6 +45,13 @@ let tlist_tex_settings = 'latex;l:label;s:sections;t:subsections;u:subsubsection
 "To get rid of an obnoxius error when using latex tags E792: Empty Menu Name
 let Tlist_Show_Menu = 0
 
+"vim-latex
+command Cleantex !rm *.aux *.log *.out *.bbl *.fdb* *.blg *.dvi *.pdf *.lof *.fls
+let g:tex_flavor='latex'
+let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats = 'pdf'
+
 " sessionman
 nmap <leader>S :SessionList<CR>
 nmap <leader>SS :SessionSave<CR>

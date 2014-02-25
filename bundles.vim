@@ -62,6 +62,8 @@ Bundle 'AndrewRadev/switch.vim'
 Bundle 'tpope/vim-dispatch'
 " git diff in the gutter (sign column) and stages/reverts hunks
 Bundle 'airblade/vim-gitgutter'
+"vim-latex
+Bundle 'jcf/vim-latex'
 
 " Ruby/Rails
 
