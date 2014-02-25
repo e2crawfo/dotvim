@@ -88,8 +88,8 @@ Bundle 'nvie/vim-flake8'
 
 " color themes
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-vividchalk'
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+"Bundle 'tpope/vim-vividchalk'
+"Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
 " syntax support
 Bundle 'vim-ruby/vim-ruby'
