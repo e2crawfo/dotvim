@@ -64,6 +64,8 @@ Bundle 'tpope/vim-dispatch'
 Bundle 'airblade/vim-gitgutter'
 "vim-latex
 Bundle 'jcf/vim-latex'
+"vim-flake8
+Bundle nvie/vim-flake8
 
 " Ruby/Rails
 
