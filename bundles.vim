@@ -40,8 +40,6 @@ Bundle 'greplace.vim'
 Bundle 'astrails/vim-powerline'
 " plugin for resolving three-way merge conflicts
 Bundle 'sjl/splice.vim'
-" plugin for visually displaying indent levels
-Bundle 'Indent-Guides'
 " end certain structures automatically, e.g. begin/end etc.
 Bundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
