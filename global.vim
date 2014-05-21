@@ -1,4 +1,5 @@
 " be 'modern'
+
 set nocompatible
 syntax on
 filetype plugin indent on
@@ -31,8 +32,8 @@ set listchars=tab:▷⋅,trail:·
 set list
 
 " highlight spell errors
-set spell spelllang=en_us
-hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
+"set spell spelllang=en_us
+"hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 " behavior
                         " ignore these files when completing names and in
@@ -72,8 +73,9 @@ set smartcase           " do not ignore if search pattern has CAPS
 
 " omni completion settings
 set ofu=syntaxcomplete#Complete
-let g:rubycomplete_buffer_loading = 0
-let g:rubycomplete_classes_in_global = 1
+"let g:rubycomp  
+"let e_buffer_loading = 0
+"let g:rubycomplete_classes_in_global = 1
 
 " directory settings
 call system('mkdir -vp ~/.backup/undo/ > /dev/null 2>&1')
@@ -92,7 +94,7 @@ set foldlevel=9
 set nofoldenable        "dont fold by default "
 
 " extended '%' mapping for if/then/else/end etc
-runtime macros/matchit.vim
+"runtime macros/matchit.vim
 
 let mapleader = ","
 let maplocalleader = "\\"

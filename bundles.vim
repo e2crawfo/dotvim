@@ -18,16 +18,12 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'AutoComplPop'
 " tags list navigation
 Bundle 'taglist.vim'
-" yank history
-Bundle 'YankRing.vim'
 " git integration
 Bundle 'tpope/vim-fugitive'
-" syntax checking on save
+" syntax checking on save - e2crawfo: so useful
 Bundle 'scrooloose/syntastic'
 " TextMate-style snippets
 Bundle 'msanders/snipmate.vim'
-" manipulation of surraunding parens, quotes, etc.
-Bundle 'tpope/vim-surround'
 " vertical alignment tool
 Bundle 'tsaleh/vim-align'
 " 'ag' searching integration
@@ -38,20 +34,14 @@ Bundle 'austintaylor/vim-indentobject'
 Bundle 'greplace.vim'
 " better looking statusline
 Bundle 'astrails/vim-powerline'
-" plugin for resolving three-way merge conflicts
-Bundle 'sjl/splice.vim'
 " end certain structures automatically, e.g. begin/end etc.
 Bundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
 Bundle 'Raimondi/delimitMate'
-" calendar, duh!
-Bundle 'calendar.vim--Matsumoto'
 " A Narrow Region Plugin (similar to Emacs)
 Bundle 'chrisbra/NrrwRgn'
 " url based hyperlinks for text files
 Bundle 'utl.vim'
-" A clone of Emacs' Org-mode for Vim
-Bundle 'hsitz/VimOrganizer'
 " visual undo tree
 Bundle 'sjl/gundo.vim'
 " switch segments of text with predefined replacements. e.g. '' -> ""
@@ -64,25 +54,8 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'jcf/vim-latex'
 "vim-flake8
 Bundle 'nvie/vim-flake8'
-
-" Ruby/Rails
-
-" rails support
-"Bundle 'tpope/vim-rails'
-" bundler integration (e.g. :Bopen)
-"Bundle 'tpope/vim-bundler'
-" rake integration
-"Bundle 'tpope/vim-rake'
-" A custom text object for selecting ruby blocks (ar/ir)
-"Bundle 'nelstrom/vim-textobj-rubyblock'
-" ruby refactoring
-"Bundle 'ecomba/vim-ruby-refactoring'
-" apidock.com docs integration
-"Bundle 'apidock.vim'
-" toggle ruby blocks style
-"Bundle 'vim-scripts/blockle.vim'
-" lightweight Rspec runner for Vim
-"Bundle 'josemarluedke/vim-rspec'
+"Easy Motion
+Bundle 'Lokaltog/vim-easymotion'
 
 " color themes
 Bundle 'altercation/vim-colors-solarized'
@@ -121,10 +94,6 @@ Bundle 'scrooloose/vim-space'
 Bundle 'mattn/gist-vim'
 " web APIs support
 Bundle 'mattn/webapi-vim'
-
-"Bundle 'ShowMarks'
-"Bundle 'tpope/vim-unimpaired'
-"Bundle 'reinh/vim-makegreen'
 
 Bundle 'Shougo/vimproc'
 Bundle 'Shougo/unite.vim'

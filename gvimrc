@@ -1,5 +1,5 @@
 " gui settings
-colorscheme solarized
+colorscheme codeschool
 syntax enable
 set background=dark
 
