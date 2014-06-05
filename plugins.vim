@@ -6,13 +6,14 @@ hi! link ShowMarksHLo LineNr
 hi! link ShowMarksHLm LineNr
 
 " syntastic
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=1 " Always auto open loc list if there are errors
+let g:syntastic_auto_loc_list=0 " Always auto open loc list if there are errors
 let g:syntastic_check_on_wq=0
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_python_checkers = ["python"]
 let g:syntastic_python_checkers = ["flake8"]
 nmap e :lnext<CR>
 nmap E :lprev<CR>
