@@ -8,7 +8,7 @@ hi! link ShowMarksHLm LineNr
 " syntastic
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=0 " Always auto open loc list if there are errors
+let g:syntastic_auto_loc_list=2 " Auto close loc-list when no errors, but don't auto-open
 let g:syntastic_check_on_wq=0
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
@@ -89,7 +89,7 @@ let g:yankring_history_dir = '~/.backup'
 "nmap <unique> <silent> <Leader>. :CommandTFlush<CR>:CommandT<CR>
 "let g:CommandTMatchWindowAtTop=1
 
-let g:ctrlp_map = '<leader>,'
+let g:ctrlp_map = '<leader>q'
 let g:ctrlp_cmd = 'CtrlP'
 "let g:ctrlp_working_path_mode = ''
 
