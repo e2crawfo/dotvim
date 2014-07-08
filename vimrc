@@ -5,8 +5,8 @@ source ~/.vim/plugins.vim  " configuration for plugins that needs to be set BEFO
 source ~/.vim/macros.vim   " some macros
 
 set t_Co=256
-colorscheme donbass
-"colorscheme xoria256
+"colorscheme donbass
+colorscheme xoria256
 "colorscheme mac_classic
 
 if has('gui_running')
