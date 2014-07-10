@@ -2,7 +2,6 @@
 source ~/.vim/bundles.vim  " vundle plugins list
 source ~/.vim/global.vim   " general global configuration
 source ~/.vim/plugins.vim  " configuration for plugins that needs to be set BEFORE plugins are loaded
-source ~/.vim/macros.vim   " some macros
 
 set t_Co=256
 colorscheme donbass

@@ -72,23 +72,6 @@ nmap <Leader>sh :ConqueSplit bash<cr>
 " ,r run command
 nmap <Leader>R :ConqueSplit
 
-" yankring
-let g:yankring_replace_n_pkey = '<leader>['
-let g:yankring_replace_n_nkey = '<leader>]'
-" ,y to show the yankring
-nmap <leader>y :YRShow<cr>
-" put the yankring_history file in ~/.backup
-let g:yankring_history_dir = '~/.backup'
-
-" rails
-" completing Rails hangs a lot
-"let g:rubycomplete_rails = 1
-
-" command-t
-"nmap <unique> <silent> <Leader>, :CommandT<CR>
-"nmap <unique> <silent> <Leader>. :CommandTFlush<CR>:CommandT<CR>
-"let g:CommandTMatchWindowAtTop=1
-
 let g:ctrlp_map = '<leader>q'
 let g:ctrlp_cmd = 'CtrlP'
 "let g:ctrlp_working_path_mode = ''

@@ -6,6 +6,8 @@ call vundle#rc()
 " plugin management
 Bundle 'gmarik/vundle'
 
+" jedi python completion, replaces vim omni completion
+Bundle 'davidhalter/jedi-vim'
 " file tree
 Bundle 'scrooloose/nerdtree'
 " file tree and tabs interaction
@@ -14,18 +16,12 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'scrooloose/nerdcommenter'
 " fuzzy file open
 Bundle 'kien/ctrlp.vim'
-" popup completion menu
-Bundle 'AutoComplPop'
 " tags list navigation
 Bundle 'taglist.vim'
 " git integration
 Bundle 'tpope/vim-fugitive'
 " syntax checking on save - e2crawfo: so useful
 Bundle 'scrooloose/syntastic'
-" TextMate-style snippets
-Bundle 'msanders/snipmate.vim'
-" vertical alignment tool
-Bundle 'tsaleh/vim-align'
 " 'ag' searching integration
 Bundle 'rking/ag.vim'
 " text object based on indent level (ai, ii)
@@ -34,18 +30,12 @@ Bundle 'austintaylor/vim-indentobject'
 Bundle 'greplace.vim'
 " better looking statusline
 Bundle 'astrails/vim-powerline'
-" end certain structures automatically, e.g. begin/end etc.
-Bundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
 Bundle 'Raimondi/delimitMate'
-" A Narrow Region Plugin (similar to Emacs)
-Bundle 'chrisbra/NrrwRgn'
 " url based hyperlinks for text files
 Bundle 'utl.vim'
 " visual undo tree
 Bundle 'sjl/gundo.vim'
-" switch segments of text with predefined replacements. e.g. '' -> ""
-Bundle 'AndrewRadev/switch.vim'
 " async external commands with output in vim
 Bundle 'tpope/vim-dispatch'
 " git diff in the gutter (sign column) and stages/reverts hunks
@@ -91,9 +81,7 @@ Bundle 'vitaly/vim-gitignore'
 " repeat motion with <Space>
 Bundle 'scrooloose/vim-space'
 " Github's gist support
-Bundle 'mattn/gist-vim'
-" web APIs support
-Bundle 'mattn/webapi-vim'
+" Bundle 'mattn/gist-vim'
 
 Bundle 'Shougo/vimproc'
 Bundle 'Shougo/unite.vim'
