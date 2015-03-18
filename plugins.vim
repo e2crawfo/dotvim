@@ -75,6 +75,8 @@ nmap <Leader>R :ConqueSplit
 let g:ctrlp_map = '<leader>q'
 let g:ctrlp_cmd = 'CtrlP'
 "let g:ctrlp_working_path_mode = ''
+"
+"let g:ctrlp_prompt_mappings = {}
 
 nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>
 nmap <leader>l :CtrlPLine<cr>

@@ -7,7 +7,11 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " jedi python completion, replaces vim omni completion
-Bundle 'davidhalter/jedi-vim'
+" Bundle 'davidhalter/jedi-vim' e2crawfo: not a huge fan of jedi, tries to do
+" too much
+"
+" popup completion menu
+Bundle 'AutoComplPop'
 " file tree
 Bundle 'scrooloose/nerdtree'
 " file tree and tabs interaction

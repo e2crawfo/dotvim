@@ -54,8 +54,11 @@ set modelines=5         " number of lines to check for vim: directives at the st
 set autoindent          " automatically indent new line
 
 set ts=4                " number of spaces in a tab
+set tabstop=5
 set sw=4                " number of spaces for indent
+set shiftwidth=4
 set et                  " expand tabs into spaces
+set expandtab
 
 set ttimeoutlen=50      " fast Esc to normal mode
 
