@@ -15,6 +15,11 @@ let g:syntastic_warning_symbol='⚠'
 let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_python_checkers = ["python"]
 let g:syntastic_python_checkers = ["flake8"]
+
+
+let g:syntastic_java_checkers = ["javac"]
+let g:syntastic_java_javac_classpath = '/home/eric/Dropbox/TA/comp424_winter2015/project/build/classes'
+
 nmap e :lnext<CR>
 nmap E :lprev<CR>
 
