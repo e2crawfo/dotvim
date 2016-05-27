@@ -1,5 +1,4 @@
 " be 'modern'
-
 set nocompatible
 syntax on
 filetype plugin indent on
@@ -32,8 +31,8 @@ set listchars=tab:▷⋅,trail:·
 set list
 
 " highlight spell errors
-"set spell spelllang=en_us
-"hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
+" set spell spelllang=en_us
+" hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 " behavior
                         " ignore these files when completing names and in

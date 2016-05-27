@@ -4,7 +4,8 @@ source ~/.vim/global.vim   " general global configuration
 source ~/.vim/plugins.vim  " configuration for plugins that needs to be set BEFORE plugins are loaded
 
 set t_Co=256
-colorscheme donbass
+colorscheme distinguished
+"colorscheme donbass
 "colorscheme xoria256
 "colorscheme mac_classic
 

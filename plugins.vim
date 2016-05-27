@@ -15,10 +15,11 @@ let g:syntastic_warning_symbol='⚠'
 let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_python_checkers = ["python"]
 let g:syntastic_python_checkers = ["flake8"]
+let g:syntastic_matlab_checkers = ["mlint"]
 
 
 let g:syntastic_java_checkers = ["javac"]
-let g:syntastic_java_javac_classpath = '/home/eric/Dropbox/TA/comp424_winter2015/project/build/classes'
+let g:syntastic_java_javac_classpath = '/home/eric/comp424/omweso/student_package/bin'
 
 nmap e :lnext<CR>
 nmap E :lprev<CR>
@@ -172,7 +173,10 @@ let g:unite_source_history_yank_enable = 1
 let g:unite_enable_start_insert = 1
 let g:unite_source_file_mru_long_limit = 100
 let g:unite_source_directory_mru_long_limit = 100
-call unite#filters#matcher_default#use(['matcher_fuzzy'])
+"call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
 " vim-rspec
 map <Leader>r :call RunNearestSpec()<CR>
+
+
+nmap <Leader>z :!clear;python %<CR>
