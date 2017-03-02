@@ -30,9 +30,6 @@ Bundle 'Raimondi/delimitMate'
 " url based hyperlinks for text files
 Bundle 'utl.vim'
 
-" visual undo tree
-" Bundle 'sjl/gundo.vim' Not working for some reason.
-
 " async external commands with output in vim
 Bundle 'tpope/vim-dispatch'
 " git diff in the gutter (sign column) and stages/reverts hunks
