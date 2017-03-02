@@ -47,7 +47,6 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'kana/vim-textobj-user'
 " repeat motion with <Space>
 Bundle 'scrooloose/vim-space'
-Bundle 'ConqueShell'
 
 
 " syntax support
