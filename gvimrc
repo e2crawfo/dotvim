@@ -1,5 +1,5 @@
 " gui settings
-colorscheme codeschool
+colorscheme zenburn
 syntax enable
 set background=dark
 

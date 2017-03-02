@@ -31,8 +31,10 @@ set listchars=tab:▷⋅,trail:·
 set list
 
 " highlight spell errors
-" set spell spelllang=en_us
-" hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
+" ]s for next misspelled word
+" run :set spell to turn on spellcheck
+set spelllang=en_us
+hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 " behavior
                         " ignore these files when completing names and in

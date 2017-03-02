@@ -1,24 +1,8 @@
-" Don't use Ex mode, use Q for formatting
-map Q gq
-
 "make Y consistent with C and D
 nnoremap Y y$
 
-" toggle highlight trailing whitespace
-nmap <silent> <leader>s :set nolist!<CR>
-
-" Ctrl-N to disable search match highlight
+" Ctrl-N to clear search match highlight
 nmap <silent> <C-N> :silent noh<CR>
-
-" Ctrol-E to switch between 2 last buffers
-nmap <C-E> :b#<CR>
-
-" ,e to fast finding files. just type beginning of a name and hit TAB
-nmap <leader>e :e **/
-
-" Make shift-insert work like in Xterm
-map <S-Insert> <MiddleMouse>
-map! <S-Insert> <MiddleMouse>
 
 " ,n to get the next location (compilation errors, grep etc)
 nmap <leader>n :cn<CR>
@@ -29,10 +13,6 @@ nmap <leader>d :diffupdate<CR>
 nmap <leader>dp :diffput<CR>
 nmap <leader>dg :diffget<CR>
 
-" driving me insane this thing
-command Q q
-command Qa qa
-command QA qa
 command -nargs=* -complete=file W w <args>
 command -nargs=* -complete=file E e <args>
 
@@ -67,5 +47,44 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+""""""""""" added by e2crawfo
+
 " fast expand current file's directory in command mode
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+" delete trailing whitespace
+nnoremap <leader>dw :%s/ *$//g<cr>
+
+" replace tabs with 4 spaces
+nnoremap <leader>ts :%s/\t/    /g<cr>
+
+" Run current file with python
+nmap <Leader>z :!clear;python %<CR>
+
+" pdb
+function! InsertPdbLine()
+  let trace = expand("import ipdb; ipdb.set_trace(context=10)")
+  execute "normal! o" . trace . "\e0"
+endfunction
+map <Leader>D :call InsertPdbLine()<CR>
+
+" Record macro with qq, stop with q, execute with Q
+nnoremap Q @q
+vnoremap Q :norm @q<cr>
+
+" Save files with <leader>s in normal and insert mode. "
+nnoremap <leader>s :w<cr>
+inoremap <leader>s <C-c>:w<cr>
+
+" Inserting at beginning and end of paragraph.
+nnoremap <leader>A '{jO
+nnoremap <leader>a '}ko
+
+" Ag
+" ,a for Ag
+nmap <leader>k :Ag<space>
+
+" Clip line length.
+nmap <leader>C 80\|bhxd$o<ESC>p
+
+map <Space> <Plug>(easymotion-prefix)

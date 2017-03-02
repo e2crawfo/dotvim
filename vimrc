@@ -3,11 +3,7 @@ source ~/.vim/bundles.vim  " vundle plugins list
 source ~/.vim/global.vim   " general global configuration
 source ~/.vim/plugins.vim  " configuration for plugins that needs to be set BEFORE plugins are loaded
 
-set t_Co=256
-colorscheme distinguished
-"colorscheme donbass
-"colorscheme xoria256
-"colorscheme mac_classic
+colorscheme zenburn
 
 if has('gui_running')
   source ~/.vim/gvimrc     " gui specific settings
